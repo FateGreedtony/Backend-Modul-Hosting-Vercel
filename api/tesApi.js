@@ -17,10 +17,3 @@ module.exports = (req, res) => {
     timestamp: new Date().toISOString(),
   });
 };
-module.exports = (req, res) => {
-  res.status(200).json({
-    ok: true,
-    message: "Backend OK",
-    timestamp: new Date().toISOString(),
-  });
-};
